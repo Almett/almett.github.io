@@ -102,7 +102,7 @@
 <meta property="og:site_name" content="Alim&#39;s Notes">
 <meta property="og:description" content="安装MySQLUbuntu16.04中MySQL的最新版本默认包含再APT包里，所以只需要更新apt-get然后开始安装MySQL即可。更新APT包  sudo apt-get update  安装MySQLL">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-10-03T08:57:02.093Z">
+<meta property="og:updated_time" content="2017-10-03T09:49:13.378Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Ubuntu16.04上关于MySQL的一些基本操作与异常处理">
 <meta name="twitter:description" content="安装MySQLUbuntu16.04中MySQL的最新版本默认包含再APT包里，所以只需要更新apt-get然后开始安装MySQL即可。更新APT包  sudo apt-get update  安装MySQLL">
@@ -382,6 +382,26 @@
 <li><p><code>sudo rm -rf /etc/mysql</code></p>
 </li>
 </ul>
+<h3 id="创建用户，删除用户，权限管理"><a href="#创建用户，删除用户，权限管理" class="headerlink" title="创建用户，删除用户，权限管理"></a>创建用户，删除用户，权限管理</h3><p>创建用户</p>
+<ul>
+<li><code>CREATE USER &#39;newuser&#39;@&#39;localhost&#39; INDENTIFIED BY &#39;password&#39;;</code></li>
+</ul>
+<p>授予权限</p>
+<ul>
+<li><code>GRANT ALL PRIVILEGES ON *.* TO &#39;username&#39;@&#39;%&#39; IDENTIFIED BY &#39;password&#39;;</code></li>
+</ul>
+<p>终结并完成授权</p>
+<ul>
+<li><code>FLUSH PRIVILEGES;</code></li>
+</ul>
+<p>查看用户</p>
+<ul>
+<li><code>SELECT User,Host FROM mysql.user;</code></li>
+</ul>
+<p>删除用户</p>
+<ul>
+<li><code>DROP USER &#39;username&#39;@&#39;localhost&#39;;</code></li>
+</ul>
 <h3 id="异常和错误处理"><a href="#异常和错误处理" class="headerlink" title="异常和错误处理"></a>异常和错误处理</h3><p><strong>error:</strong> ‘Can’t connect to llocal MySQL server through socket’/var/run/mysqld/mysqld.sock’(2)’</p>
 <p><strong>解决方案1：</strong> 该错误可能是由于安装多个MySQL导致的。通过以下命令尝试去解决：</p>
 <p>获取MySQL进程</p>
@@ -613,7 +633,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#安装MySQL"><span class="nav-number">1.</span> <span class="nav-text">安装MySQL</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#卸载MySQL"><span class="nav-number">2.</span> <span class="nav-text">卸载MySQL</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#异常和错误处理"><span class="nav-number">3.</span> <span class="nav-text">异常和错误处理</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#安装MySQL"><span class="nav-number">1.</span> <span class="nav-text">安装MySQL</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#卸载MySQL"><span class="nav-number">2.</span> <span class="nav-text">卸载MySQL</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#创建用户，删除用户，权限管理"><span class="nav-number">3.</span> <span class="nav-text">创建用户，删除用户，权限管理</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#异常和错误处理"><span class="nav-number">4.</span> <span class="nav-text">异常和错误处理</span></a></li></ol></div>
             
 
           </div>
