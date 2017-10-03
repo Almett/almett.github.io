@@ -78,7 +78,7 @@
 <link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="MySQL," />
+  <meta name="keywords" content="MySQL,Ubuntu," />
 
 
 
@@ -94,18 +94,18 @@
 
 
 
-<meta name="description" content="安装MySQLUbuntu16.04中MySQL的最新版本默认包含再APT包里，所以只需要更新apt-get然后开始安装MySQL即可。 更新APT包  sudo apt-get update  安装MySQLL">
-<meta name="keywords" content="MySQL">
+<meta name="description" content="安装MySQLUbuntu16.04中MySQL的最新版本默认包含再APT包里，所以只需要更新apt-get然后开始安装MySQL即可。更新APT包  sudo apt-get update  安装MySQLL">
+<meta name="keywords" content="MySQL,Ubuntu">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Ubuntu16.04上关于MySQL一些基本操作与异常处理">
+<meta property="og:title" content="Ubuntu16.04上关于MySQL的一些基本操作与异常处理">
 <meta property="og:url" content="http://yoursite.com/2017/10/03/关于MySQL的一切操作/index.html">
 <meta property="og:site_name" content="Alim&#39;s Notes">
-<meta property="og:description" content="安装MySQLUbuntu16.04中MySQL的最新版本默认包含再APT包里，所以只需要更新apt-get然后开始安装MySQL即可。 更新APT包  sudo apt-get update  安装MySQLL">
+<meta property="og:description" content="安装MySQLUbuntu16.04中MySQL的最新版本默认包含再APT包里，所以只需要更新apt-get然后开始安装MySQL即可。更新APT包  sudo apt-get update  安装MySQLL">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-10-03T07:40:45.261Z">
+<meta property="og:updated_time" content="2017-10-03T08:57:02.093Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Ubuntu16.04上关于MySQL一些基本操作与异常处理">
-<meta name="twitter:description" content="安装MySQLUbuntu16.04中MySQL的最新版本默认包含再APT包里，所以只需要更新apt-get然后开始安装MySQL即可。 更新APT包  sudo apt-get update  安装MySQLL">
+<meta name="twitter:title" content="Ubuntu16.04上关于MySQL的一些基本操作与异常处理">
+<meta name="twitter:description" content="安装MySQLUbuntu16.04中MySQL的最新版本默认包含再APT包里，所以只需要更新apt-get然后开始安装MySQL即可。更新APT包  sudo apt-get update  安装MySQLL">
 
 
 
@@ -140,7 +140,7 @@
 
 
 
-  <title>Ubuntu16.04上关于MySQL一些基本操作与异常处理 | Alim's Notes</title>
+  <title>Ubuntu16.04上关于MySQL的一些基本操作与异常处理 | Alim's Notes</title>
   
 
 
@@ -280,7 +280,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Ubuntu16.04上关于MySQL一些基本操作与异常处理</h1>
+          <h1 class="post-title" itemprop="name headline">Ubuntu16.04上关于MySQL的一些基本操作与异常处理</h1>
         
 
         <div class="post-meta">
@@ -321,7 +321,7 @@
 
           
           
-             <span id="/2017/10/03/关于MySQL的一切操作/" class="leancloud_visitors" data-flag-title="Ubuntu16.04上关于MySQL一些基本操作与异常处理">
+             <span id="/2017/10/03/关于MySQL的一切操作/" class="leancloud_visitors" data-flag-title="Ubuntu16.04上关于MySQL的一些基本操作与异常处理">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -356,8 +356,7 @@
       
 
       
-        <h3 id="安装MySQL"><a href="#安装MySQL" class="headerlink" title="安装MySQL"></a>安装MySQL</h3><p><strong>Ubuntu16.04中MySQL的最新版本默认包含再APT包里，所以只需要更新<code>apt-get</code>然后开始安装MySQL即可。</strong></p>
-<p>更新APT包</p>
+        <h3 id="安装MySQL"><a href="#安装MySQL" class="headerlink" title="安装MySQL"></a>安装MySQL</h3><p>Ubuntu16.04中MySQL的最新版本默认包含再APT包里，所以只需要更新<code>apt-get</code>然后开始安装MySQL即可。<br>更新APT包</p>
 <ul>
 <li><code>sudo apt-get update</code></li>
 </ul>
@@ -383,8 +382,8 @@
 <li><p><code>sudo rm -rf /etc/mysql</code></p>
 </li>
 </ul>
-<h3 id="异常和错误处理"><a href="#异常和错误处理" class="headerlink" title="异常和错误处理"></a>异常和错误处理</h3><p><strong>error:’Can’t connect to llocal MySQL server through socket’/var/run/mysqld/mysqld.sock’(2)’
-</strong>解决方案1：<strong> 该错误可能是由于安装多个MySQL导致的。通过以下命令尝试去解决：</strong></p>
+<h3 id="异常和错误处理"><a href="#异常和错误处理" class="headerlink" title="异常和错误处理"></a>异常和错误处理</h3><p><strong>error:</strong> ‘Can’t connect to llocal MySQL server through socket’/var/run/mysqld/mysqld.sock’(2)’</p>
+<p><strong>解决方案1：</strong> 该错误可能是由于安装多个MySQL导致的。通过以下命令尝试去解决：</p>
 <p>获取MySQL进程</p>
 <ul>
 <li><code>ps -A|grep mysql</code></li>
@@ -419,6 +418,8 @@
         <div class="post-tags">
           
             <a href="/tags/MySQL/" rel="tag"># MySQL</a>
+          
+            <a href="/tags/Ubuntu/" rel="tag"># Ubuntu</a>
           
         </div>
       
@@ -531,7 +532,7 @@
             
             <div class="site-state-item site-state-tags">
               <a href="/tags/index.html">
-                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-count">4</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
