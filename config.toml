@@ -1,4 +1,4 @@
-baseURL = "almett.com"
+baseURL = "/"
 languageCode = "en-us"
 title = "Personal Tech Blog"
 theme = "minimal"

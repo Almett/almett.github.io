@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Java on Personal Tech Blog</title>
-    <link>almett.com/tags/java/</link>
+    <link>/tags/java/</link>
     <description>Recent content in Java on Personal Tech Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 20 May 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="almett.com/tags/java/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/java/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>JVM Optimization</title>
-      <link>almett.com/post/jvm-optimization/</link>
+      <link>/post/jvm-optimization/</link>
       <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>almett.com/post/jvm-optimization/</guid>
+      <guid>/post/jvm-optimization/</guid>
       <description>JVM Architecture JVM(Java Virtual Machine) acts as a run-time engine to run Java applications. JVM is the one that actually calls the main method present in a java code. JVM is a part of JRE(Java Runtime Environment).
 Java applications are called WORA (Write Once Run Anywhere). This means a programmer can develop Java code on one system and can expect it to run on any other Java enabled system without any adjustment.</description>
     </item>

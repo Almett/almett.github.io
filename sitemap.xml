@@ -3,42 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>almett.com/tags/jvm/</loc>
+    <loc>/tags/jvm/</loc>
     <lastmod>2019-05-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>almett.com/post/jvm-optimization/</loc>
+    <loc>/post/jvm-optimization/</loc>
     <lastmod>2019-05-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>almett.com/tags/java/</loc>
-    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>almett.com/</loc>
+    <loc>/tags/java/</loc>
     <lastmod>2019-05-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>almett.com/post/</loc>
+    <loc>/</loc>
     <lastmod>2019-05-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>almett.com/tags/</loc>
+    <loc>/post/</loc>
     <lastmod>2019-05-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>almett.com/categories/</loc>
+    <loc>/tags/</loc>
+    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
