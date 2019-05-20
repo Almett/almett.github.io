@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Minimal</title>
-    <link>http://example.com/tags/</link>
-    <description>Recent content in Tags on Minimal</description>
+    <title>Tags on Personal Tech Blog</title>
+    <link>almett.com/tags/</link>
+    <description>Recent content in Tags on Personal Tech Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 20 May 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://example.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="almett.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>JVM</title>
-      <link>http://example.com/tags/jvm/</link>
+      <link>almett.com/tags/jvm/</link>
       <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://example.com/tags/jvm/</guid>
+      <guid>almett.com/tags/jvm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Java</title>
-      <link>http://example.com/tags/java/</link>
+      <link>almett.com/tags/java/</link>
       <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://example.com/tags/java/</guid>
+      <guid>almett.com/tags/java/</guid>
       <description></description>
     </item>
     
